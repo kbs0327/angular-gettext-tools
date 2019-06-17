@@ -4,7 +4,7 @@
 
 Used to construct build tools for [`angular-gettext`](https://github.com/rubenv/angular-gettext).
 
-[![Build Status](https://travis-ci.org/rubenv/grunt-angular-gettext.png?branch=master)](https://travis-ci.org/rubenv/angular-gettext-tools)
+[![Build Status](https://travis-ci.org/rubenv/angular-gettext-tools.png?branch=master)](https://travis-ci.org/rubenv/angular-gettext-tools)
 
 Implementations:
 
@@ -12,6 +12,7 @@ Implementations:
 * [Gulp plugin](https://github.com/gabegorelick/gulp-angular-gettext)
 * [CLI utility](https://github.com/huston007/angular-gettext-cli)
 * [Webpack loader (compilation)](https://github.com/princed/angular-gettext-loader)
+* [Webpack plugin (compilation and extraction)](https://github.com/augusto-altman/angular-gettext-plugin)
 
 Check the website for usage instructions: [http://angular-gettext.rocketeer.be/](http://angular-gettext.rocketeer.be/).
 

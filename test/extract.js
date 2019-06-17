@@ -394,14 +394,14 @@ describe('Extract', function () {
 
     it('Extracts strings from an ES6 class', function () {
         var files = [
-            'test/fixtures/es6-class.js'
+            'test/fixtures/es6-class.jsx'
         ];
         var catalog = testExtract(files);
 
         assert.equal(catalog.items.length, 1);
         assert.equal(catalog.items[0].msgid, 'Hi from an ES6 class!');
         assert.equal(catalog.items[0].msgstr, '');
-        assert.deepEqual(catalog.items[0].references, ['test/fixtures/es6-class.js:5']);
+        assert.deepEqual(catalog.items[0].references, ['test/fixtures/es6-class.jsx:5']);
     });
 
     it('Should extract custom attributes from HTML', function () {

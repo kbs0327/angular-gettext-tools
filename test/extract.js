@@ -225,7 +225,7 @@ describe('Extract', function () {
 
         assert.equal(catalog.items[1].msgid, 'Selected a file to upload!');
         assert.equal(catalog.items[1].msgstr, '');
-        assert.deepEqual(catalog.items[1].references, ['test/fixtures/no_delimiter.html:5']);
+        assert.deepEqual(catalog.items[1].references, ['test/fixtures/no_delimiter.html:3']);
     });
 
     it('Extracts strings from <translate> element', function () {

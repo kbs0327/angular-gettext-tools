@@ -178,7 +178,7 @@ describe('Extract: Filter regex', function () {
 
     it('Can be used without delimiters', function () {
         var matches;
-        var regex = mkAttrRegex('', '');
+        var regex = mkAttrRegex('^', '');
         var hit = false;
 
         while (matches = regex.exec('\'Hello\' | translate')) {
@@ -191,7 +191,7 @@ describe('Extract: Filter regex', function () {
 
     it('Can be used without delimiters with multiple filters', function () {
         var matches;
-        var regex = mkAttrRegex('', '');
+        var regex = mkAttrRegex('^', '');
         var hit = false;
 
         while (matches = regex.exec('\'Hello\' | translate | lowercase')) {
@@ -206,7 +206,7 @@ describe('Extract: Filter regex', function () {
 
     it('Can be used with filter context', function () {
         var matches;
-        var regex = mkAttrRegex('', '');
+        var regex = mkAttrRegex('^', '');
         var hit = false;
 
         while (matches = regex.exec('\'Hello\' | translate:"context"')) {

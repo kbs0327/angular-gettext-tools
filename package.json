@@ -39,10 +39,10 @@
     "gettext"
   ],
   "dependencies": {
-    "@babel/parser": "^7.4.5",
+    "@babel/parser": "^7.4.3",
     "binary-search": "^1.2.0",
     "cheerio": "^0.22.0",
-    "lodash": "^4.17.5",
-    "pofile": "~1.0.0"
+    "lodash": "^4.6.0",
+    "pofile": "^1.0.0"
   }
 }
